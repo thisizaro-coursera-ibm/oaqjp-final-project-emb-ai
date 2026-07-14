@@ -1,3 +1,5 @@
+"""Flask server for the Emotion Detection application."""
+
 from flask import Flask, request, render_template
 from EmotionDetection import emotion_detector
 
@@ -32,3 +34,4 @@ def sent_analyzer():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+    
